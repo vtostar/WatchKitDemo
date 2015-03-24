@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B98D7ABE-29DC-486A-B295-C1998E69575F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WatchKitDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>03DAEA537C6F7B1190207B5E4AC7193873162B59</key>
+		<string>https://github.com/WQmemory/WatchKitDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WatchKitDemo/WatchKitDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>03DAEA537C6F7B1190207B5E4AC7193873162B59</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/WQmemory/WatchKitDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>03DAEA537C6F7B1190207B5E4AC7193873162B59</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03DAEA537C6F7B1190207B5E4AC7193873162B59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WatchKitDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

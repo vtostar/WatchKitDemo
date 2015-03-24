@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="center" verticalAlignment="center" text="Your guess is: 3" id="BhF-Gn-1rI" userLabel="Your guess is: 3"/>
+                        <button width="1" alignment="left" verticalAlignment="center" title="Guess" id="fAL-Wf-qoR">
+                            <connections>
+                                <action selector="startGuess" destination="AgC-eL-Hgc" id="cEv-xL-Gpv"/>
+                            </connections>
+                        </button>
+                        <label width="136" alignment="left" verticalAlignment="bottom" text="Press Guess to play" minimumScaleFactor="0.5" id="LPj-Bj-oNT"/>
+                        <slider width="1" alignment="left" value="0.59999999999999998" steps="5" id="2XL-fs-4qe">
+                            <connections>
+                                <action selector="updateGuess:" destination="AgC-eL-Hgc" id="KQI-Yk-Z3O"/>
+                            </connections>
+                        </slider>
+                    </items>
+                    <connections>
+                        <outlet property="guessLabel" destination="BhF-Gn-1rI" id="IkI-C8-viO"/>
+                        <outlet property="guessSlider" destination="2XL-fs-4qe" id="SBh-Oy-ya5"/>
+                        <outlet property="resultLabel" destination="LPj-Bj-oNT" id="9o7-Wh-f9N"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
